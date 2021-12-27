@@ -1,0 +1,95 @@
+{
+  "location": [
+    41.39491,
+    2.17557
+  ],
+  "title": "Barcelona, Spain",
+  "description": "square plot with rounded edges",
+  "radius": 500,
+  "layers": {
+    "perimeter": {
+      "circle": false,
+      "dilate": 100
+    },
+    "streets": {
+      "width": {
+        "primary": 5,
+        "secondary": 4,
+        "tertiary": 3,
+        "residential": 2,
+        "footway": 1
+      },
+      "circle": false,
+      "dilate": 100
+    },
+    "building": {
+      "tags": {
+        "building": true
+      },
+      "union": false,
+      "circle": false,
+      "dilate": 100
+    },
+    "green": {
+      "tags": {
+        "landuse": [
+          "grass",
+          "village_green"
+        ],
+        "leisure": "park"
+      },
+      "circle": false,
+      "dilate": 100
+    }
+  },
+  "drawing_kwargs": {
+    "background": {
+      "fc": "#F2F4CB",
+      "ec": "#dadbc1",
+      "hatch": "ooo...",
+      "zorder": -1
+    },
+    "perimeter": {
+      "fill": false,
+      "lw": 0,
+      "zorder": 0
+    },
+    "green": {
+      "fc": "#8BB174",
+      "ec": "#2F3737",
+      "hatch_c": "#A7C497",
+      "hatch": "ooo...",
+      "lw": 1,
+      "zorder": 1
+    },
+    "water": {
+      "fc": "#a8e1e6",
+      "ec": "#2F3737",
+      "hatch_c": "#9bc3d4",
+      "hatch": "ooo...",
+      "lw": 1,
+      "zorder": 3
+    },
+    "streets": {
+      "fc": "#2F3737",
+      "ec": "#475657",
+      "alpha": 1,
+      "lw": 0,
+      "zorder": 4
+    },
+    "building": {
+      "palette": [
+        "#433633",
+        ",#FF5E5B"
+      ],
+      "ec": "#2F3737",
+      "lw": 0.5,
+      "zorder": 5
+    }
+  },
+  "osm_credit": {
+    "x": 0.02,
+    "y": 0.01,
+    "color": "#2F3737"
+  }
+}
