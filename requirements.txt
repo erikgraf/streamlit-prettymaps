@@ -1,0 +1,3 @@
+streamlit
+prettymaps
+# git+https://github.com/chrieke/prettymaps.git
